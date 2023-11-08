@@ -14,7 +14,7 @@
 
 (package
  (name telemetry)
- (synopsis "A lightweight library for dispatching and handling events, with a focus on metrics and instrumentation.")
+ (synopsis "A lightweight library for dispatching and handling events, with a focus on metrics and instrumentation")
  (description "Telemetry is a lightweight library for dynamic dispatching of events, with a
 focus on metrics and instrumentation. Any OCaml library can use telemetry to
 emit events, then application code and other libraries can then hook into those
