@@ -14,7 +14,7 @@ tags: ["topics" "telemetry" "events" "metrics" "instrumentation"]
 homepage: "https://github.com/leostera/telemetry"
 bug-reports: "https://github.com/leostera/telemetry/issues"
 depends: [
-  "ocaml"
+  "ocaml" {>= "4.12.0"}
   "dune" {>= "3.10"}
   "odoc" {with-doc}
 ]
