@@ -19,6 +19,8 @@
 focus on metrics and instrumentation. Any OCaml library can use telemetry to
 emit events, then application code and other libraries can then hook into those
 events and run custom handlers.")
- (depends ocaml dune)
+ (depends
+   (ocaml (>= "4.12.0"))
+   dune)
  (tags
   (topics telemetry events metrics instrumentation)))
